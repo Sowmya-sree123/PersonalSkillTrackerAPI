@@ -1,0 +1,7 @@
+com\skillTracker\User.class
+com\DTO\LoginRequest.class
+com\repository\UserRepository.class
+com\skillTracker\PracticeLog.class
+com\service\PracticeLogService.class
+com\skillTracker\Skill.class
+com\config\SecurityConfig.class
