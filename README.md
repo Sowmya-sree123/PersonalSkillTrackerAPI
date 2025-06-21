@@ -20,7 +20,7 @@ A Spring Boot-based RESTful API to help users track their learning and practice 
   Postman (for testing)
 
  # Database Design
-
+ 
  👩‍💻 User Table
  id, name, email, password, createdAt
 
@@ -30,4 +30,14 @@ A Spring Boot-based RESTful API to help users track their learning and practice 
  📒 PracticeLog Table
   id, skillId, date, duration, notes
 
+# How to Test This API in Postman 
+
+1. **Start** the Spring Boot app (Run as Spring Boot Application)  
+2. Ensure **MySQL is running** and DB credentials are correct in `application.properties`  
+3. **Register** a user → `POST /auth/register`  
+4. **Login** → `POST /auth/login`, and copy the `JSESSIONID` from response cookies  
+5. For `/skills` or `/logs`, add headers:
+   - `Cookie`: `JSESSIONID=your_session_id_here`
+6. In **Body tab**, select **Raw** and choose **JSON**
+  
  Made with by Sowmya Rachuri – Java Full Stack Enthusiast
