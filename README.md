@@ -1,7 +1,7 @@
 #  Personal Skill Tracker API
 A Spring Boot-based RESTful API to help users track their learning and practice progress across different skills like Java, Docker, Data Structures, etc.
 
-# Featues(with Endpoints)
+# Features(with Endpoints)
 ✅ User Registration – POST /auth/register
 ✅ User Login – POST /auth/login
 ✅ Add New Skills – POST /skills
@@ -29,3 +29,5 @@ A Spring Boot-based RESTful API to help users track their learning and practice 
 
  📒 PracticeLog Table
   id, skillId, date, duration, notes
+
+ Made with by Sowmya Rachuri – Java Full Stack Enthusiast
