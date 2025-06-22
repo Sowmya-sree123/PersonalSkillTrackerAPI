@@ -16,7 +16,7 @@ import com.skillTracker.Skill;
 @Service
 public class PracticeLogServiceImp implements PracticeLogService
 {
-	@Autowired
+    @Autowired
     private PracticeLogRepository logRepository;
 
     @Autowired
